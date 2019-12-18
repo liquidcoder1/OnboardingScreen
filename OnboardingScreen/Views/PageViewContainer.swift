@@ -2,7 +2,7 @@
 //  PageView.swift
 //  OnboardingScreen
 //
-//  Created by John Kulimushi on 30/11/2019.
+//  Created by John K on 30/11/2019.
 //  Copyright © 2019 Liquidcoder. All rights reserved.
 //
 
@@ -13,6 +13,8 @@ struct PageViewContainer<Page: View>  : View {
     var viewControllers: [UIHostingController<Page>]
     @State var currentPage = 0
     @State var buttonText = "Next"
+    var presentSignupView: (()->()) = {}
+    
         
     var body: some View {
        
@@ -26,7 +28,9 @@ struct PageViewContainer<Page: View>  : View {
                 Button(action: {
                     if self.currentPage < self.viewControllers.count - 1{
                         self.currentPage += 1
-                    } 
+                    } else {
+                        self.presentSignupView()
+                    }
                 }) {
                     HStack {
                         Text(currentPage == viewControllers.count - 1 ? "Get started" : "Next" )

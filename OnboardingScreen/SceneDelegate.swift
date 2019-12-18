@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  OnboardingScreen
 //
-//  Created by John Kulimushi on 30/11/2019.
-//  Copyright © 2019 John Kulimushi. All rights reserved.
+//  Created by John K. on 30/11/2019.
+//  Copyright © 2019 Liquidcoder. All rights reserved.
 //
 
 import UIKit

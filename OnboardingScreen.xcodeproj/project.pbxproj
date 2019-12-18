@@ -20,6 +20,11 @@
 		5263F7522392A89B005F45E0 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263F7512392A89B005F45E0 /* PageView.swift */; };
 		5263F7542392AA93005F45E0 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263F7532392AA93005F45E0 /* PageIndicator.swift */; };
 		5263F7572392B5D7005F45E0 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263F7562392B5D7005F45E0 /* ColorExt.swift */; };
+		52B0552E23A4C46200C5654A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0552D23A4C46200C5654A /* LoginView.swift */; };
+		52B0553023A4C48700C5654A /* LCTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0552F23A4C48700C5654A /* LCTextfield.swift */; };
+		52B0553223A4C4C400C5654A /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0553123A4C4C400C5654A /* SignupView.swift */; };
+		52B0553423A4C4D900C5654A /* RecoverPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0553323A4C4D900C5654A /* RecoverPasswordView.swift */; };
+		52C7C22123AA334500DC36E4 /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7C22023AA334500DC36E4 /* UIApplicationExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		5263F7512392A89B005F45E0 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		5263F7532392AA93005F45E0 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		5263F7562392B5D7005F45E0 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		52B0552D23A4C46200C5654A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		52B0552F23A4C48700C5654A /* LCTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTextfield.swift; sourceTree = "<group>"; };
+		52B0553123A4C4C400C5654A /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		52B0553323A4C4D900C5654A /* RecoverPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordView.swift; sourceTree = "<group>"; };
+		52C7C22023AA334500DC36E4 /* UIApplicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				5214327F23992D6900398FBF /* LCButton.swift */,
+				52B0552F23A4C48700C5654A /* LCTextfield.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -108,6 +119,9 @@
 				5263F74C2392A44C005F45E0 /* PageViewContainer.swift */,
 				5263F7512392A89B005F45E0 /* PageView.swift */,
 				5263F7532392AA93005F45E0 /* PageIndicator.swift */,
+				52B0552D23A4C46200C5654A /* LoginView.swift */,
+				52B0553123A4C4C400C5654A /* SignupView.swift */,
+				52B0553323A4C4D900C5654A /* RecoverPasswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				5263F7562392B5D7005F45E0 /* ColorExt.swift */,
+				52C7C22023AA334500DC36E4 /* UIApplicationExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B0553023A4C48700C5654A /* LCTextfield.swift in Sources */,
 				5263F7542392AA93005F45E0 /* PageIndicator.swift in Sources */,
 				5263F7572392B5D7005F45E0 /* ColorExt.swift in Sources */,
 				5263F74D2392A44C005F45E0 /* PageViewContainer.swift in Sources */,
@@ -207,7 +223,11 @@
 				5263F7382392941D005F45E0 /* SceneDelegate.swift in Sources */,
 				5263F73A2392941D005F45E0 /* ContentView.swift in Sources */,
 				5263F74A23929AB7005F45E0 /* PageViewController.swift in Sources */,
+				52C7C22123AA334500DC36E4 /* UIApplicationExt.swift in Sources */,
+				52B0552E23A4C46200C5654A /* LoginView.swift in Sources */,
 				5214328023992D6900398FBF /* LCButton.swift in Sources */,
+				52B0553223A4C4C400C5654A /* SignupView.swift in Sources */,
+				52B0553423A4C4D900C5654A /* RecoverPasswordView.swift in Sources */,
 				5263F7522392A89B005F45E0 /* PageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
