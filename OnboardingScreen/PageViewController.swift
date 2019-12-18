@@ -26,9 +26,7 @@ struct PageViewController: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ pageViewController: UIPageViewController, context: UIViewControllerRepresentableContext<PageViewController>) {
-        pageViewController.setViewControllers([controllers[currentPage]], direction: .forward, animated: true, completion: { flag in
-            print("Displayed view controller \(self.controllers[self.currentPage])")
-        })
+        pageViewController.setViewControllers([controllers[currentPage]], direction: .forward, animated: true)
     }
     
     
